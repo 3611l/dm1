@@ -33,8 +33,8 @@
     #define OFFSET_OBSERVER_MODE                0x34d4 //m_iObserverMode
     #define OFFSET_OBSERVING_TARGET             0x34e0 //m_hObserverTarget
  
-    #define OFFSET_MATRIX                               0x11a210
-    #define OFFSET_RENDER                               0x763f830
+    #define OFFSET_MATRIX                               0x11a210 //ViewMatrix
+    #define OFFSET_RENDER                               0x7677d20 //ViewRender-[Miscellaneous]
  
     #define OFFSET_WEAPON               0x1a1c //m_latestPrimaryWeapons
     #define OFFSET_BULLET_SPEED         0x1f18 //CWeaponX!m_flProjectileSpeed
