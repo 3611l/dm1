@@ -6,7 +6,7 @@
 #if VERSION == STEAM
 
 #define OFFSET_ENTITYLIST           0x1b37a78 //cl_entitylist
-#define OFFSET_LOCAL_ENT            0x01ee8cb0 //LocalPlayer-0
+#define OFFSET_LOCAL_ENT            0x01ee8cb0 + 0x8 //LocalPlayer-0
 #define OFFSET_NAME_LIST            0xbcc7e50 //NameList
 #define OFFSET_THIRDPERSON          0x01b1c810 + 0x6c //thirdperson_override + 0x6c
 #define OFFSET_TIMESCALE            0x014d2a40 //host_timescale
@@ -56,7 +56,7 @@
 #define GLOW_COLOR_R 0x1D0 
 #define GLOW_COLOR_G 0x1D4 
 #define GLOW_COLOR_B 0x1D8
-#define GLOW_START_TIME 0x02cc //m_playerFloatLookStartTime=0x02c4
+#define GLOW_START_TIME 0x02cc //m_playerFloatLookStartTime
 
 
 #define OFFSET_GLOW_ENABLE_GLOW_CONTEXT                 OFFSET_GLOW_ENABLE // Script_Highlight_SetCurrentContext
