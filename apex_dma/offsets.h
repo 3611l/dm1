@@ -6,7 +6,7 @@
 #if VERSION == STEAM
 
 #define OFFSET_ENTITYLIST           0x1b37a78 //cl_entitylist
-#define OFFSET_LOCAL_ENT            0x01ee8cb0 + 0x8 //LocalPlayer-0
+#define OFFSET_LOCAL_ENT            0x01ee8cb0 + 0x8 //AVC_GameMovement@@ + 0x8
 #define OFFSET_NAME_LIST            0xbcc7e50 //NameList
 #define OFFSET_THIRDPERSON          0x01b1c810 + 0x6c //thirdperson_override + 0x6c
 #define OFFSET_TIMESCALE            0x014d2a40 //host_timescale
